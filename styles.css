@@ -48,7 +48,7 @@ body {
     margin-bottom: 15px;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (width <=576px) {
 
     .main-info,
     .contact_info_container {
@@ -109,7 +109,7 @@ body {
     height: 10px;
     display: inline-block;
     border-left: 2px solid #999;
-    margin: 0px 10px;
+    margin: 0 10px;
 }
 
 .contact-info__sub-header {
@@ -315,7 +315,7 @@ body {
     justify-content: space-between;
 }
 
-.footer-year > span {
+.footer-year>span {
     font-size: 18px;
     font-weight: 600;
     color: #181820;
@@ -327,8 +327,7 @@ body {
     gap: 15px;
 }
 
-.footer-sm > a {
+.footer-sm>a {
     text-decoration: none;
     color: #181820;
 }
-
