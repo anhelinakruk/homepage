@@ -209,7 +209,6 @@ body {
     margin-bottom: 15px;
 }
 
-
 .skills__text {
     color: var(--secondary-text-color);
     text-align: justify;
@@ -309,3 +308,27 @@ body {
 .additional-info__languages-item {
     color: var(--secondary-text-color);
 }
+
+.footer-container {
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-year > span {
+    font-size: 18px;
+    font-weight: 600;
+    color: #181820;
+}
+
+
+.footer-sm {
+    display: flex;
+    gap: 15px;
+}
+
+.footer-sm > a {
+    text-decoration: none;
+    color: #181820;
+}
+
